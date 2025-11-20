@@ -1,28 +1,25 @@
-Aboresence du projet
-
-
 BoutiqueGestion/
 │
 ├── src/
 │   ├── Main.java                # Point d’entrée de l’application
 │   │
-│   ├── models/                  # Classes représentant les entités
+│   ├── models/                  # Classes représentant les entités métier
 │   │   ├── Produit.java
 │   │   ├── Vente.java
 │   │
-│   ├── services/                # Logique métier (CRUD, calcul, etc.)
+│   ├── services/                # Logique métier (CRUD, calculs, etc.)
 │   │   ├── ProduitService.java
 │   │   ├── VenteService.java
 │   │   ├── StockService.java
 │   │
-│   ├── utils/                   # Classes utilitaires (lecture/écriture fichiers)
+│   ├── utils/                   # Utilitaires (lecture/écriture de fichiers)
 │   │   ├── DataManager.java
 │   │
-│   └── ui/                      # Interface console
+│   └── ui/                      # Interface utilisateur en console
 │       ├── Menu.java
 │       ├── ConsoleHelper.java
 │
-├── data/                        # Stockage des fichiers de données
+├── data/                        # Fichiers de données persistants
 │   ├── produits.txt
 │   └── ventes.txt
 │
